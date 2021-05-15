@@ -2667,6 +2667,4 @@ F 3 "" H 4850 8950 50  0001 C CNN
 	1    4850 8950
 	-1   0    0    1   
 $EndComp
-Text Notes 19100 950  0    197  ~ 39
-DSI LCD
 $EndSCHEMATC
