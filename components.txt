@@ -1,0 +1,41 @@
+Project: Snap Development Board
+
+   *1.  USB4125-GF-A			- USB-C Receptacle (Power - 6 Contacts)
+   *2.  RJLSE4038101			- Ethernet Connector  
+   *3.  USB2412-DZK 			- USB-A Hub Controller 
+   *4.  STUSB1602AQTR			- USB-C Controller
+   5.  TDA19988BHN/C1,557		- HDMI Transmitter IC
+   *6.  2-1734248-0			- MIPI-DSI Port
+   *7.  503398-1892 			- Micro SD Card Connector 
+   8.  				- User Buttons and Leds
+   9.  				- RPi pinouts
+   10. STUSB1600AQTR			- ST-USB Interface IC
+   *11. DF40C(2.0)-70DS-0.4V(51) 	- Snap Card receptacle(GPIO)  
+   *12. DF40C(2.0)-24DS-0.4V(51) 	- Snap Card Receptacle(Power)
+   13. 				- Power Button
+   14. 				- Reset Button
+   15. 				- Boot Switches
+   *16. 87583-0010BHLF 		- USB-A Receptacle
+   *17. USB4085-GF-A			- USB-C Receptacle (Data - 16 Contacts)
+   18. MIC2026A-2YM-TR			- USB-A High Side Power Switch for supply
+   *19. RAHHD19TR			- HDMI Connector
+   20. VSC8541XMV-02			- Ethernet controller
+   21. STM32F103R4H6A			- STLink MCU
+   22. BCM857BS-7-F			- Dual PNP Transistor
+   *23. STL9P3LLH6			- MOSFET 
+   24. MMBZ16VALT1G			- ESD for USB-C power
+   25. ECMF02-2AMX6			- USB differential lines Filter
+   26. ESDA7P120-1U1M			- USB Power line ESD suppressors.
+   27. ECMF04-4HSWM10			- HDMI lines filters.
+   *28. ESDALC6V1-5M6			- HDMI ESD.
+   *29. HSP051-4M10			- Mircro SD ESD
+   *30. USBLC6-2P6			- ST-Link ESD Suppressors. 
+   31. LD3985M33R			- ST-Link Power.
+ 
+ 
+ 
+
+   
+
+
+    
