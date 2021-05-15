@@ -3139,4 +3139,15 @@ Wire Wire Line
 NoConn ~ 2150 15400
 NoConn ~ 2150 15500
 NoConn ~ 2150 15600
+$Comp
+L U_Connector:RAHHD19TR J?
+U 1 1 616029E1
+P 8100 14500
+F 0 "J?" H 8330 14446 50  0000 L CNN
+F 1 "RAHHD19TR" H 8330 14355 50  0000 L CNN
+F 2 "" H 7900 14400 50  0001 L CNN
+F 3 "https://www.switchcraft.com/Drawings/RAHHD19TR_CD.pdf" H 7900 14300 50  0001 L CNN
+	1    8100 14500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
