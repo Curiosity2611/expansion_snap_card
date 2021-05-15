@@ -15,4 +15,5 @@
   (lib (name U_Transistor_BJT)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Transistor_BJT.lib)(options "")(descr ""))
   (lib (name U_Power_Switch)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Power_Switch.lib)(options "")(descr ""))
   (lib (name U_Filter)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Filter.lib)(options "")(descr ""))
+  (lib (name U_Interface_HDMI)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Interface_HDMI.lib)(options "")(descr ""))
 )

@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
 Title "Snap Card Expansion Board"
@@ -2987,4 +2987,156 @@ Wire Notes Line
 	450  12000 18250 12000
 Wire Notes Line
 	8000 450  8000 12000
+$Comp
+L U_Interface_HDMI:TDA19988BHN_C1,557 U?
+U 1 1 60A6BD0E
+P 3150 16100
+F 0 "U?" H 3150 18767 50  0000 C CNN
+F 1 "TDA19988BHN_C1,557" H 3150 18676 50  0000 C CNN
+F 2 "" H 3150 16100 50  0001 L BNN
+F 3 "https://www.mouser.in/datasheet/2/302/NXP_TDA19988-1189083.pdf" H 3150 16100 50  0001 L BNN
+	1    3150 16100
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 12550 0    197  ~ 39
+HDMI Interface
+Text GLabel 1950 17600 0    50   UnSpc ~ 0
+LCD_R0
+Text GLabel 1950 17700 0    50   UnSpc ~ 0
+LCD_R1
+Text GLabel 1950 17800 0    50   UnSpc ~ 0
+LCD_R2
+Text GLabel 1950 17900 0    50   UnSpc ~ 0
+LCD_R3
+Text GLabel 1950 18000 0    50   UnSpc ~ 0
+LCD_R4
+Text GLabel 1950 18100 0    50   UnSpc ~ 0
+LCD_R5
+Text GLabel 1950 18200 0    50   UnSpc ~ 0
+LCD_R6
+Text GLabel 1950 18300 0    50   UnSpc ~ 0
+LCD_R7
+Text GLabel 1950 16700 0    50   UnSpc ~ 0
+LCD_G0
+Text GLabel 1950 16800 0    50   UnSpc ~ 0
+LCD_G1
+Text GLabel 1950 16900 0    50   UnSpc ~ 0
+LCD_G2
+Text GLabel 1950 17000 0    50   UnSpc ~ 0
+LCD_G3
+Text GLabel 1950 17100 0    50   UnSpc ~ 0
+LCD_G4
+Text GLabel 1950 17200 0    50   UnSpc ~ 0
+LCD_G5
+Text GLabel 1950 17300 0    50   UnSpc ~ 0
+LCD_G6
+Text GLabel 1950 17400 0    50   UnSpc ~ 0
+LCD_G7
+Text GLabel 1950 15800 0    50   UnSpc ~ 0
+LCD_B0
+Text GLabel 1950 15900 0    50   UnSpc ~ 0
+LCD_B1
+Text GLabel 1950 16000 0    50   UnSpc ~ 0
+LCD_B2
+Text GLabel 1950 16100 0    50   UnSpc ~ 0
+LCD_B3
+Text GLabel 1950 16200 0    50   UnSpc ~ 0
+LCD_B4
+Text GLabel 1950 16300 0    50   UnSpc ~ 0
+LCD_B5
+Text GLabel 1950 16400 0    50   UnSpc ~ 0
+LCD_B6
+Text GLabel 1950 16500 0    50   UnSpc ~ 0
+LCD_B7
+Text GLabel 1950 14900 0    50   UnSpc ~ 0
+LCD_VSYNC
+Text GLabel 1950 15000 0    50   UnSpc ~ 0
+LCD_HSYNC
+Text GLabel 1950 14600 0    50   UnSpc ~ 0
+LCD_CLK
+Text GLabel 1950 14800 0    50   UnSpc ~ 0
+LCD_DE
+Text GLabel 1950 15200 0    50   UnSpc ~ 0
+I2S2_WS
+Text GLabel 1950 15300 0    50   UnSpc ~ 0
+I2S2_SDO
+Text GLabel 4350 17500 2    50   UnSpc ~ 0
+HDMI_CEC
+Wire Wire Line
+	1950 15800 2150 15800
+Wire Wire Line
+	1950 15900 2150 15900
+Wire Wire Line
+	1950 16000 2150 16000
+Wire Wire Line
+	1950 16100 2150 16100
+Wire Wire Line
+	1950 16200 2150 16200
+Wire Wire Line
+	1950 16300 2150 16300
+Wire Wire Line
+	1950 16400 2150 16400
+Wire Wire Line
+	1950 16500 2150 16500
+Wire Wire Line
+	1950 16700 2150 16700
+Wire Wire Line
+	1950 16800 2150 16800
+Wire Wire Line
+	1950 16900 2150 16900
+Wire Wire Line
+	1950 17000 2150 17000
+Wire Wire Line
+	1950 17100 2150 17100
+Wire Wire Line
+	1950 17200 2150 17200
+Wire Wire Line
+	1950 17300 2150 17300
+Wire Wire Line
+	1950 17400 2150 17400
+Wire Wire Line
+	1950 17600 2150 17600
+Wire Wire Line
+	1950 17700 2150 17700
+Wire Wire Line
+	1950 17800 2150 17800
+Wire Wire Line
+	1950 17900 2150 17900
+Wire Wire Line
+	1950 18000 2150 18000
+Wire Wire Line
+	1950 18100 2150 18100
+Wire Wire Line
+	1950 18200 2150 18200
+Wire Wire Line
+	1950 18300 2150 18300
+Wire Wire Line
+	2150 14900 1950 14900
+Wire Wire Line
+	2150 15000 1950 15000
+Wire Wire Line
+	1950 14800 2150 14800
+Wire Wire Line
+	4150 17500 4350 17500
+Text GLabel 4350 17000 2    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 4350 16900 2    50   Input ~ 0
+I2C1_SCL
+Wire Wire Line
+	4150 16900 4350 16900
+Wire Wire Line
+	4150 17000 4350 17000
+Wire Wire Line
+	1950 15200 2150 15200
+Wire Wire Line
+	1950 15300 2150 15300
+Text GLabel 1950 14500 0    50   UnSpc ~ 0
+I2S2_CK
+Wire Wire Line
+	1950 14500 2150 14500
+Wire Wire Line
+	1950 14600 2150 14600
+NoConn ~ 2150 15400
+NoConn ~ 2150 15500
+NoConn ~ 2150 15600
 $EndSCHEMATC
