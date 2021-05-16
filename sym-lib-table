@@ -16,4 +16,5 @@
   (lib (name U_Power_Switch)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Power_Switch.lib)(options "")(descr ""))
   (lib (name U_Filter)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Filter.lib)(options "")(descr ""))
   (lib (name U_Interface_HDMI)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Interface_HDMI.lib)(options "")(descr ""))
+  (lib (name U_Interface_Ethernet)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Interface_Ethernet.lib)(options "")(descr ""))
 )
