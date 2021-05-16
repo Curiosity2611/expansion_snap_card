@@ -4418,21 +4418,21 @@ F 3 "https://www.mouser.in/datasheet/2/268/VSC8541RT_Single_Port_Radiation_Toler
 	1    15200 15850
 	-1   0    0    -1  
 $EndComp
-Text GLabel 13750 15850 0    50   Input ~ 0
+Text GLabel 12700 15850 0    50   Input ~ 0
 ETH1_TXD0
-Text GLabel 13750 16050 0    50   Input ~ 0
+Text GLabel 12700 16050 0    50   Input ~ 0
 ETH1_TXD1
-Text GLabel 13750 16250 0    50   Input ~ 0
+Text GLabel 12700 16250 0    50   Input ~ 0
 ETH1_TXD2
-Text GLabel 13750 16450 0    50   Input ~ 0
+Text GLabel 12700 16450 0    50   Input ~ 0
 ETH1_TXD3
-Text GLabel 13750 15950 0    50   Input ~ 0
+Text GLabel 12700 15950 0    50   Input ~ 0
 ETH1_RXD0
-Text GLabel 13750 16150 0    50   Input ~ 0
+Text GLabel 12700 16150 0    50   Input ~ 0
 ETH1_RXD1
-Text GLabel 13750 16350 0    50   Input ~ 0
+Text GLabel 12700 16350 0    50   Input ~ 0
 ETH1_RXD2
-Text GLabel 13750 16550 0    50   Input ~ 0
+Text GLabel 12700 16550 0    50   Input ~ 0
 ETH1_RXD3
 Text GLabel 17050 15150 2    50   Input ~ 0
 ETH1_CLK125
@@ -4442,42 +4442,18 @@ Text GLabel 16650 16050 2    50   Input ~ 0
 ETH1_MDIO
 Text GLabel 16650 15950 2    50   Input ~ 0
 ETH1_MDC
-Text GLabel 13750 15250 0    50   Input ~ 0
+Text GLabel 12750 15250 0    50   Input ~ 0
 ETH1_RX_CLK
-Text GLabel 13750 15050 0    50   Input ~ 0
+Text GLabel 12750 15050 0    50   Input ~ 0
 ETH1_GTX_CLK
-Text GLabel 13750 14850 0    50   Input ~ 0
+Text GLabel 12750 14850 0    50   Input ~ 0
 ETH1_TX_EN
-Text GLabel 13750 14950 0    50   Input ~ 0
+Text GLabel 12750 14950 0    50   Input ~ 0
 ETH1_RX_DV
-Text GLabel 16850 15550 1    50   Input ~ 0
+Text GLabel 16950 15650 2    50   Input ~ 0
 ETH_CLK
 Text GLabel 16950 14550 2    50   Input ~ 0
 ETH_NRST
-Wire Wire Line
-	13750 15950 14100 15950
-Wire Wire Line
-	13750 16150 14100 16150
-Wire Wire Line
-	13750 16350 14100 16350
-Wire Wire Line
-	13750 16550 14100 16550
-Wire Wire Line
-	13750 15850 14100 15850
-Wire Wire Line
-	13750 16050 14100 16050
-Wire Wire Line
-	13750 16250 14100 16250
-Wire Wire Line
-	13750 16450 14100 16450
-Wire Wire Line
-	13750 15050 14100 15050
-Wire Wire Line
-	13750 15250 14100 15250
-Wire Wire Line
-	13750 14950 14100 14950
-Wire Wire Line
-	13750 14850 14100 14850
 Wire Wire Line
 	16300 15950 16650 15950
 Wire Wire Line
@@ -4501,8 +4477,40 @@ Wire Wire Line
 	16750 15150 17050 15150
 Wire Wire Line
 	16300 14550 16950 14550
+NoConn ~ 14100 16650
+NoConn ~ 14100 16750
+NoConn ~ 14100 16850
+NoConn ~ 14100 16950
+NoConn ~ 14100 17050
+NoConn ~ 14100 17150
+NoConn ~ 14100 17250
+NoConn ~ 14100 17350
+NoConn ~ 14100 17550
+NoConn ~ 14100 17650
 Wire Wire Line
-	16300 15650 16850 15650
+	12700 15850 14100 15850
 Wire Wire Line
-	16850 15650 16850 15550
+	12700 15950 14100 15950
+Wire Wire Line
+	12700 16050 14100 16050
+Wire Wire Line
+	12700 16150 14100 16150
+Wire Wire Line
+	12700 16250 14100 16250
+Wire Wire Line
+	12700 16350 14100 16350
+Wire Wire Line
+	12700 16450 14100 16450
+Wire Wire Line
+	12700 16550 14100 16550
+Wire Wire Line
+	12750 14850 14100 14850
+Wire Wire Line
+	12750 14950 14100 14950
+Wire Wire Line
+	12750 15050 14100 15050
+Wire Wire Line
+	12750 15250 14100 15250
+Wire Wire Line
+	16300 15650 16950 15650
 $EndSCHEMATC
