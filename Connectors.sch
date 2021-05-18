@@ -1,0 +1,889 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 10
+Title "Snap Connectors"
+Date "2021-05-18"
+Rev "1.0.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 3700 3200
+NoConn ~ 3700 3100
+NoConn ~ 3700 3000
+NoConn ~ 3700 2900
+NoConn ~ 3700 2800
+NoConn ~ 3700 2700
+NoConn ~ 3700 2600
+NoConn ~ 3700 2500
+NoConn ~ 3700 2400
+NoConn ~ 3700 2300
+NoConn ~ 3700 2200
+NoConn ~ 3700 2100
+NoConn ~ 3700 2000
+NoConn ~ 3700 1900
+NoConn ~ 3700 1800
+NoConn ~ 3700 1700
+NoConn ~ 3700 1600
+NoConn ~ 3700 1500
+NoConn ~ 3700 1400
+NoConn ~ 3700 1300
+Wire Wire Line
+	5700 1900 6000 1900
+Wire Wire Line
+	6900 4100 7100 4100
+Wire Wire Line
+	5700 2600 6000 2600
+Wire Wire Line
+	5700 2400 6000 2400
+Wire Wire Line
+	5700 2300 6000 2300
+Wire Wire Line
+	5700 2200 6000 2200
+Wire Wire Line
+	5700 2100 6000 2100
+Wire Wire Line
+	5700 2000 6000 2000
+Wire Wire Line
+	5700 1800 6000 1800
+Wire Wire Line
+	5700 1700 6000 1700
+Text GLabel 7100 4100 2    50   UnSpc ~ 0
+DSI_BL_CTRL
+Text GLabel 5700 1700 0    50   UnSpc ~ 0
+DSI_LCD_INT
+Text GLabel 5700 1800 0    50   UnSpc ~ 0
+DSI_RESET
+Text GLabel 5700 1900 0    50   UnSpc ~ 0
+DSI_TE
+Text GLabel 5700 2000 0    50   UnSpc ~ 0
+DSI_CK_N
+Text GLabel 5700 2600 0    50   UnSpc ~ 0
+DSI_CK_P
+Text GLabel 5700 2400 0    50   UnSpc ~ 0
+DSI_D1_P
+Text GLabel 5700 2300 0    50   UnSpc ~ 0
+DSI_D1_N
+Text GLabel 5700 2100 0    50   UnSpc ~ 0
+DSI_D0_N
+Text GLabel 5700 2200 0    50   UnSpc ~ 0
+DSI_D0_P
+Wire Wire Line
+	2200 2600 2800 2600
+Connection ~ 2200 2600
+Wire Wire Line
+	2200 2700 2200 2600
+Wire Wire Line
+	2800 2700 2200 2700
+Wire Wire Line
+	1700 2600 2200 2600
+Wire Wire Line
+	1350 2600 1500 2600
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60DFDFD5
+P 1600 2600
+AR Path="/60DFDFD5" Ref="FB?"  Part="1" 
+AR Path="/60DE12B4/60DFDFD5" Ref="FB6"  Part="1" 
+F 0 "FB6" V 1363 2600 50  0000 C CNN
+F 1 "30E @ 100MHz" V 1454 2600 50  0000 C CNN
+F 2 "" V 1530 2600 50  0001 C CNN
+F 3 "~" H 1600 2600 50  0001 C CNN
+	1    1600 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR?
+U 1 1 60DFDFDB
+P 1350 2600
+AR Path="/60DFDFDB" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFDFDB" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 1350 2450 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" V 1365 2728 50  0000 L CNN
+F 2 "" H 1350 2600 50  0001 C CNN
+F 3 "" H 1350 2600 50  0001 C CNN
+	1    1350 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 3200 2800 3200
+Connection ~ 2450 3200
+Wire Wire Line
+	2450 3400 2450 3200
+Wire Wire Line
+	2150 3400 2450 3400
+Wire Wire Line
+	1800 3400 1950 3400
+$Comp
+L Device:R_Small_US R?
+U 1 1 60DFDFE6
+P 2050 3400
+AR Path="/60DFDFE6" Ref="R?"  Part="1" 
+AR Path="/60DE12B4/60DFDFE6" Ref="R54"  Part="1" 
+F 0 "R54" V 1950 3400 50  0000 C CNN
+F 1 "10k" V 2150 3400 50  0000 C CNN
+F 2 "" H 2050 3400 50  0001 C CNN
+F 3 "~" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR?
+U 1 1 60DFDFEC
+P 1800 3400
+AR Path="/60DFDFEC" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFDFEC" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 1800 3250 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" V 1815 3528 50  0000 L CNN
+F 2 "" H 1800 3400 50  0001 C CNN
+F 3 "" H 1800 3400 50  0001 C CNN
+	1    1800 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 3200 2450 3200
+Wire Wire Line
+	2350 3100 2800 3100
+Wire Wire Line
+	2350 3000 2800 3000
+Wire Wire Line
+	2350 2900 2800 2900
+Wire Wire Line
+	2350 2400 2800 2400
+Wire Wire Line
+	2350 2300 2800 2300
+Wire Wire Line
+	2800 2100 2350 2100
+Wire Wire Line
+	2350 2000 2800 2000
+Wire Wire Line
+	2350 1800 2800 1800
+Wire Wire Line
+	2350 1700 2800 1700
+$Comp
+L power:GND #PWR?
+U 1 1 60DFDFFC
+P 2600 3300
+AR Path="/60DFDFFC" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFDFFC" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 2600 3050 50  0001 C CNN
+F 1 "GND" H 2605 3127 50  0000 C CNN
+F 2 "" H 2600 3300 50  0001 C CNN
+F 3 "" H 2600 3300 50  0001 C CNN
+	1    2600 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2800
+Wire Wire Line
+	2600 2800 2600 3300
+Connection ~ 2600 2500
+Wire Wire Line
+	2600 2800 2800 2800
+Wire Wire Line
+	2600 2500 2600 2800
+Connection ~ 2600 2200
+Wire Wire Line
+	2600 2500 2800 2500
+Wire Wire Line
+	2600 2200 2600 2500
+Connection ~ 2600 1900
+Wire Wire Line
+	2600 2200 2800 2200
+Wire Wire Line
+	2600 1900 2600 2200
+Connection ~ 2600 1600
+Wire Wire Line
+	2600 1900 2800 1900
+Wire Wire Line
+	2600 1600 2600 1900
+Wire Wire Line
+	2600 1600 2800 1600
+Wire Wire Line
+	2600 1300 2600 1600
+Wire Wire Line
+	2800 1300 2600 1300
+Wire Wire Line
+	2800 1500 2350 1500
+Wire Wire Line
+	2350 1400 2800 1400
+Text GLabel 2350 2300 0    50   Input ~ 0
+I2C1_SCL
+Text GLabel 2350 2400 0    50   BiDi ~ 0
+I2C1_SDA
+Wire Wire Line
+	5700 4300 6000 4300
+Wire Wire Line
+	6900 3300 7150 3300
+Text GLabel 7150 3300 2    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 5700 4300 0    50   Input ~ 0
+I2C1_SCL
+NoConn ~ 6900 1400
+$Comp
+L U_Connector:DF40C_2.0_-70DS-0.4V_51_ J?
+U 1 1 60DFE055
+P 6450 3100
+AR Path="/60DFE055" Ref="J?"  Part="1" 
+AR Path="/60DE12B4/60DFE055" Ref="J11"  Part="1" 
+F 0 "J11" H 6450 5065 50  0000 C CNN
+F 1 "DF40C_2.0_-70DS-0.4V_51_" H 6450 4974 50  0000 C CNN
+F 2 "" H 6750 4900 50  0001 L CNN
+F 3 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF40C-2-0-70DS-0-4V-51/2530296" H 6750 4800 50  0001 L CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 3100 0    50   UnSpc ~ 0
+DSI_BL_CTRL
+Text GLabel 2350 2900 0    50   UnSpc ~ 0
+DSI_LCD_INT
+Text GLabel 2350 1700 0    50   UnSpc ~ 0
+DSI_CK_N
+Text GLabel 2350 1800 0    50   UnSpc ~ 0
+DSI_CK_P
+Text GLabel 2350 1500 0    50   UnSpc ~ 0
+DSI_D1_P
+Text GLabel 2350 1400 0    50   UnSpc ~ 0
+DSI_D1_N
+Text GLabel 2350 2000 0    50   UnSpc ~ 0
+DSI_D0_N
+Text GLabel 2350 2100 0    50   UnSpc ~ 0
+DSI_D0_P
+Text GLabel 2350 3200 0    50   UnSpc ~ 0
+DSI_RESET
+Text GLabel 2350 3000 0    50   UnSpc ~ 0
+DSI_TE
+$Comp
+L U_Connector:2-1734248-0 J?
+U 1 1 60DFE065
+P 3250 2300
+AR Path="/60DFE065" Ref="J?"  Part="1" 
+AR Path="/60DE12B4/60DFE065" Ref="J9"  Part="1" 
+F 0 "J9" H 3250 3565 50  0000 C CNN
+F 1 "2-1734248-0" H 3250 3474 50  0000 C CNN
+F 2 "" H 3550 3400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/2-1734248-0.pdf" H 3550 3300 50  0001 L CNN
+	1    3250 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 2600 900  0    197  ~ 39
+DSI LCD
+Wire Wire Line
+	8550 4150 8800 4150
+Text GLabel 8550 4150 0    50   UnSpc ~ 0
+STUSB1600_IRQOUTn
+Wire Wire Line
+	9700 3950 10050 3950
+Wire Wire Line
+	9700 4450 10050 4450
+Text GLabel 10050 3950 2    50   BiDi ~ 0
+I2C4_SDA
+Text GLabel 10050 4450 2    50   Input ~ 0
+I2C4_SCL
+Wire Wire Line
+	8550 3150 8800 3150
+Wire Wire Line
+	8550 3050 8800 3050
+Text GLabel 8550 3050 0    50   UnSpc ~ 0
+USB_DM1
+Text GLabel 8550 3150 0    50   UnSpc ~ 0
+USB_DP1
+Connection ~ 8700 5800
+Wire Wire Line
+	8700 5900 8700 5800
+Wire Wire Line
+	8600 5900 8700 5900
+Connection ~ 8700 5700
+Wire Wire Line
+	8700 5800 8700 5700
+Wire Wire Line
+	8600 5800 8700 5800
+Wire Wire Line
+	8700 5600 8800 5600
+Connection ~ 8700 5600
+Wire Wire Line
+	8700 5700 8700 5600
+Wire Wire Line
+	8600 5700 8700 5700
+Wire Wire Line
+	8600 5600 8700 5600
+$Comp
+L U_Power:PMIC_VOUT4_3V3 #PWR?
+U 1 1 60DFE081
+P 8800 5600
+AR Path="/60DFE081" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE081" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 8800 5450 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" V 8815 5728 50  0000 L CNN
+F 2 "" H 8800 5600 50  0001 C CNN
+F 3 "" H 8800 5600 50  0001 C CNN
+	1    8800 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 2450 9950 2450
+Wire Wire Line
+	9700 4050 10050 4050
+Text GLabel 9950 2450 2    50   Output ~ 0
+NRST
+Text GLabel 10050 4050 2    50   UnSpc ~ 0
+PONKEY
+NoConn ~ 8600 6400
+NoConn ~ 8600 6300
+NoConn ~ 8600 6200
+NoConn ~ 8600 6100
+Wire Wire Line
+	7550 6200 7550 6100
+Connection ~ 7550 6200
+Wire Wire Line
+	7700 6200 7550 6200
+Wire Wire Line
+	7550 6300 7550 6200
+Connection ~ 7550 6300
+Wire Wire Line
+	7700 6300 7550 6300
+Wire Wire Line
+	7550 6100 7700 6100
+Connection ~ 7550 6100
+Wire Wire Line
+	7550 6400 7700 6400
+Wire Wire Line
+	7550 6400 7550 6300
+Wire Wire Line
+	7500 6100 7550 6100
+$Comp
+L power:VDD #PWR?
+U 1 1 60DFE09A
+P 7500 6100
+AR Path="/60DFE09A" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE09A" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 7500 5950 50  0001 C CNN
+F 1 "VDD" V 7515 6227 50  0000 L CNN
+F 2 "" H 7500 6100 50  0001 C CNN
+F 3 "" H 7500 6100 50  0001 C CNN
+	1    7500 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 6000 7150 5900
+Connection ~ 7150 6000
+Wire Wire Line
+	7700 6000 7150 6000
+Wire Wire Line
+	7150 5900 7150 5800
+Connection ~ 7150 5900
+Wire Wire Line
+	7700 5900 7150 5900
+Wire Wire Line
+	7150 5800 7150 5700
+Connection ~ 7150 5800
+Wire Wire Line
+	7700 5800 7150 5800
+Wire Wire Line
+	7150 5700 7150 5600
+Connection ~ 7150 5700
+Wire Wire Line
+	7700 5700 7150 5700
+Wire Wire Line
+	7150 5600 7150 5500
+Connection ~ 7150 5600
+Wire Wire Line
+	7700 5600 7150 5600
+Wire Wire Line
+	7150 5500 7150 5400
+Connection ~ 7150 5500
+Wire Wire Line
+	7700 5500 7150 5500
+Wire Wire Line
+	7150 5400 7150 5300
+Connection ~ 7150 5400
+Wire Wire Line
+	7700 5400 7150 5400
+Wire Wire Line
+	7150 5300 7700 5300
+Wire Wire Line
+	7150 6050 7150 6000
+$Comp
+L power:GND #PWR?
+U 1 1 60DFE0B7
+P 7150 6050
+AR Path="/60DFE0B7" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE0B7" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 7150 5800 50  0001 C CNN
+F 1 "GND" H 7155 5877 50  0000 C CNN
+F 2 "" H 7150 6050 50  0001 C CNN
+F 3 "" H 7150 6050 50  0001 C CNN
+	1    7150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Connector:DF40C_2.0_-24DS-0.4V_51 J?
+U 1 1 60DFE0BD
+P 8150 5850
+AR Path="/60DFE0BD" Ref="J?"  Part="1" 
+AR Path="/60DE12B4/60DFE0BD" Ref="J13"  Part="1" 
+F 0 "J13" H 8150 6665 50  0000 C CNN
+F 1 "DF40C_2.0_-24DS-0.4V_51" H 8150 6574 50  0000 C CNN
+F 2 "" H 8450 6500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DF40C(2.0)-24DS-0.4V(51).pdf" H 8450 6400 50  0001 L CNN
+	1    8150 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 900  0    197  ~ 39
+Snap Connectors
+NoConn ~ 9700 4750
+NoConn ~ 9700 4650
+NoConn ~ 9700 4550
+NoConn ~ 9700 4350
+NoConn ~ 9700 4250
+NoConn ~ 9700 4150
+NoConn ~ 9700 3850
+NoConn ~ 9700 3750
+NoConn ~ 9700 3650
+NoConn ~ 9700 3550
+NoConn ~ 9700 3450
+NoConn ~ 9700 3350
+NoConn ~ 9700 3250
+NoConn ~ 9700 3150
+NoConn ~ 9700 3050
+NoConn ~ 9700 2950
+NoConn ~ 9700 2350
+NoConn ~ 9700 2250
+NoConn ~ 9700 2150
+NoConn ~ 9700 2050
+NoConn ~ 9700 1950
+NoConn ~ 8800 4750
+NoConn ~ 8800 4650
+NoConn ~ 8800 4550
+NoConn ~ 8800 4450
+NoConn ~ 8800 4350
+NoConn ~ 8800 4250
+NoConn ~ 8800 4050
+NoConn ~ 8800 3950
+NoConn ~ 8800 3850
+NoConn ~ 8800 3750
+NoConn ~ 8800 3650
+NoConn ~ 8800 3550
+NoConn ~ 8800 3450
+NoConn ~ 8800 3350
+NoConn ~ 8800 3250
+NoConn ~ 8800 2950
+NoConn ~ 8800 2850
+NoConn ~ 8800 2750
+NoConn ~ 8800 2650
+NoConn ~ 8800 2250
+NoConn ~ 8800 2150
+NoConn ~ 8800 2050
+NoConn ~ 8800 1950
+NoConn ~ 8800 1850
+NoConn ~ 8800 1750
+NoConn ~ 8800 1650
+NoConn ~ 8800 1550
+NoConn ~ 8800 1450
+Wire Wire Line
+	9700 1350 9950 1350
+Wire Wire Line
+	8600 1350 8800 1350
+Text GLabel 9950 1350 2    50   Output ~ 0
+USB_PWR_CC2
+Text GLabel 8600 1350 0    50   Output ~ 0
+USB_PWR_CC1
+$Comp
+L U_Power:PMIC_LDO1_1V8 #PWR?
+U 1 1 60DFE10C
+P 8800 5400
+AR Path="/60DFE10C" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE10C" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 8800 5250 50  0001 C CNN
+F 1 "PMIC_LDO1_1V8" V 8815 5528 50  0000 L CNN
+F 2 "" H 8800 5400 50  0001 C CNN
+F 3 "" H 8800 5400 50  0001 C CNN
+	1    8800 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 5400 8700 5400
+Wire Wire Line
+	8600 5500 8700 5500
+Wire Wire Line
+	8700 5500 8700 5400
+Connection ~ 8700 5400
+Wire Wire Line
+	8700 5400 8800 5400
+$Comp
+L U_Power:PMIC_LDO6_1V0 #PWR?
+U 1 1 60DFE117
+P 8800 5300
+AR Path="/60DFE117" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE117" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 8800 5150 50  0001 C CNN
+F 1 "PMIC_LDO6_1V0" V 8815 5428 50  0000 L CNN
+F 2 "" H 8800 5300 50  0001 C CNN
+F 3 "" H 8800 5300 50  0001 C CNN
+	1    8800 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_LDO2_2V5 #PWR?
+U 1 1 60DFE11D
+P 8800 6000
+AR Path="/60DFE11D" Ref="#PWR?"  Part="1" 
+AR Path="/60DE12B4/60DFE11D" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 8800 5850 50  0001 C CNN
+F 1 "PMIC_LDO2_2V5" V 8815 6128 50  0000 L CNN
+F 2 "" H 8800 6000 50  0001 C CNN
+F 3 "" H 8800 6000 50  0001 C CNN
+	1    8800 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 5300 8800 5300
+Wire Wire Line
+	8600 6000 8800 6000
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J12
+U 1 1 60E0E0A6
+P 2850 5800
+F 0 "J12" H 2900 6917 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 2900 6826 50  0000 C CNN
+F 2 "" H 2850 5800 50  0001 C CNN
+F 3 "~" H 2850 5800 50  0001 C CNN
+	1    2850 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 1250 4500 0    197  ~ 39
+RPi Expansion Header
+Text GLabel 5700 4800 0    50   UnSpc ~ 0
+LCD_R0
+Text GLabel 7150 4200 2    50   UnSpc ~ 0
+LCD_R1
+Text GLabel 7150 4300 2    50   UnSpc ~ 0
+LCD_R2
+Text GLabel 7150 4400 2    50   UnSpc ~ 0
+LCD_R3
+Text GLabel 7150 4500 2    50   UnSpc ~ 0
+LCD_R4
+Text GLabel 7150 4600 2    50   UnSpc ~ 0
+LCD_R5
+Text GLabel 7150 4700 2    50   UnSpc ~ 0
+LCD_R6
+Text GLabel 7150 4800 2    50   UnSpc ~ 0
+LCD_R7
+Text GLabel 5700 3900 0    50   UnSpc ~ 0
+LCD_G0
+Text GLabel 5700 4000 0    50   UnSpc ~ 0
+LCD_G1
+Text GLabel 5700 4100 0    50   UnSpc ~ 0
+LCD_G2
+Text GLabel 5700 4200 0    50   UnSpc ~ 0
+LCD_G3
+Text GLabel 5700 4400 0    50   UnSpc ~ 0
+LCD_G4
+Text GLabel 5700 4500 0    50   UnSpc ~ 0
+LCD_G5
+Text GLabel 5700 4600 0    50   UnSpc ~ 0
+LCD_G6
+Text GLabel 5700 4700 0    50   UnSpc ~ 0
+LCD_G7
+Text GLabel 5700 3100 0    50   UnSpc ~ 0
+LCD_B0
+Text GLabel 5700 3200 0    50   UnSpc ~ 0
+LCD_B1
+Text GLabel 5700 3300 0    50   UnSpc ~ 0
+LCD_B2
+Text GLabel 5700 3400 0    50   UnSpc ~ 0
+LCD_B3
+Text GLabel 5700 3500 0    50   UnSpc ~ 0
+LCD_B4
+Text GLabel 5700 3600 0    50   UnSpc ~ 0
+LCD_B5
+Text GLabel 5700 3700 0    50   UnSpc ~ 0
+LCD_B6
+Text GLabel 5700 3800 0    50   UnSpc ~ 0
+LCD_B7
+Text GLabel 5700 1500 0    50   UnSpc ~ 0
+LCD_VSYNC
+Text GLabel 5700 1600 0    50   UnSpc ~ 0
+LCD_HSYNC
+Text GLabel 5700 2500 0    50   UnSpc ~ 0
+LCD_CLK
+Text GLabel 5700 1400 0    50   UnSpc ~ 0
+LCD_DE
+Text GLabel 5700 2800 0    50   UnSpc ~ 0
+I2S2_WS
+Text GLabel 5700 2900 0    50   UnSpc ~ 0
+I2S2_SDO
+Text GLabel 5700 2700 0    50   UnSpc ~ 0
+I2S2_CK
+Text GLabel 5700 3000 0    50   UnSpc ~ 0
+HDMI_CEC
+Text GLabel 7150 2800 2    50   Input ~ 0
+SDMMC1_D0
+Text GLabel 7150 2900 2    50   Input ~ 0
+SDMMC1_D1
+Text GLabel 7150 3000 2    50   Input ~ 0
+SDMMC1_D2
+Text GLabel 7150 3100 2    50   Input ~ 0
+SDMMC1_D3
+Text GLabel 7150 2700 2    50   Input ~ 0
+SDMMC1_CK
+Text GLabel 7150 2600 2    50   Input ~ 0
+SDMMC1_CMD
+Text GLabel 7150 3200 2    50   Input ~ 0
+uSD_DETECT
+Text GLabel 7150 1800 2    50   Input ~ 0
+ETH1_TXD0
+Text GLabel 7150 2000 2    50   Input ~ 0
+ETH1_TXD1
+Text GLabel 7150 2200 2    50   Input ~ 0
+ETH1_TXD2
+Text GLabel 7150 2400 2    50   Input ~ 0
+ETH1_TXD3
+Text GLabel 7150 1900 2    50   Input ~ 0
+ETH1_RXD0
+Text GLabel 7150 2100 2    50   Input ~ 0
+ETH1_RXD1
+Text GLabel 7150 2300 2    50   Input ~ 0
+ETH1_RXD2
+Text GLabel 7150 2500 2    50   Input ~ 0
+ETH1_RXD3
+Text GLabel 7150 3700 2    50   Input ~ 0
+ETH1_RX_CLK
+Text GLabel 7150 3600 2    50   Input ~ 0
+ETH1_GTX_CLK
+Text GLabel 7150 3400 2    50   Input ~ 0
+ETH1_TX_EN
+Text GLabel 7150 3500 2    50   Input ~ 0
+ETH1_RX_DV
+Text GLabel 7150 4000 2    50   Input ~ 0
+ETH1_MDINT
+Text GLabel 7150 3900 2    50   Input ~ 0
+ETH1_MDIO
+Text GLabel 7150 3800 2    50   Input ~ 0
+ETH1_MDC
+Text GLabel 7150 1700 2    50   Input ~ 0
+ETH_CLK
+Text GLabel 7150 1600 2    50   Input ~ 0
+ETH1_CLK125
+Text GLabel 7150 1500 2    50   Input ~ 0
+ETH_NRST
+Text GLabel 9950 1450 2    50   Input ~ 0
+STLINK_UART4_RX
+Text GLabel 9950 1550 2    50   Input ~ 0
+STLINK_UART4_TX
+Text GLabel 9950 1650 2    50   UnSpc ~ 0
+STLINK_SWDIO
+Text GLabel 9950 1750 2    50   UnSpc ~ 0
+STLINK_SWCLK
+Text GLabel 9950 1850 2    50   UnSpc ~ 0
+STLINK_SWO
+Wire Wire Line
+	5700 1400 6000 1400
+Wire Wire Line
+	5700 1600 6000 1600
+Wire Wire Line
+	5700 1500 6000 1500
+Wire Wire Line
+	5700 2500 6000 2500
+Wire Wire Line
+	5700 2700 6000 2700
+Wire Wire Line
+	5700 2800 6000 2800
+Wire Wire Line
+	5700 2900 6000 2900
+Wire Wire Line
+	5700 3000 6000 3000
+Wire Wire Line
+	5700 3100 6000 3100
+Wire Wire Line
+	5700 3200 6000 3200
+Wire Wire Line
+	5700 3300 6000 3300
+Wire Wire Line
+	5700 3400 6000 3400
+Wire Wire Line
+	5700 3500 6000 3500
+Wire Wire Line
+	5700 3600 6000 3600
+Wire Wire Line
+	5700 3700 6000 3700
+Wire Wire Line
+	5700 3800 6000 3800
+Wire Wire Line
+	5700 3900 6000 3900
+Wire Wire Line
+	5700 4000 6000 4000
+Wire Wire Line
+	5700 4100 6000 4100
+Wire Wire Line
+	5700 4200 6000 4200
+Wire Wire Line
+	5700 4400 6000 4400
+Wire Wire Line
+	5700 4500 6000 4500
+Wire Wire Line
+	5700 4600 6000 4600
+Wire Wire Line
+	5700 4700 6000 4700
+Wire Wire Line
+	5700 4800 6000 4800
+Wire Wire Line
+	7150 1500 6900 1500
+Wire Wire Line
+	7150 1600 6900 1600
+Wire Wire Line
+	7150 1700 6900 1700
+Wire Wire Line
+	6900 1800 7150 1800
+Wire Wire Line
+	7150 1900 6900 1900
+Wire Wire Line
+	6900 2000 7150 2000
+Wire Wire Line
+	7150 2100 6900 2100
+Wire Wire Line
+	6900 2200 7150 2200
+Wire Wire Line
+	7150 2300 6900 2300
+Wire Wire Line
+	6900 2400 7150 2400
+Wire Wire Line
+	7150 2500 6900 2500
+Wire Wire Line
+	6900 2600 7150 2600
+Wire Wire Line
+	7150 2700 6900 2700
+Wire Wire Line
+	6900 2800 7150 2800
+Wire Wire Line
+	7150 2900 6900 2900
+Wire Wire Line
+	6900 3000 7150 3000
+Wire Wire Line
+	7150 3100 6900 3100
+Wire Wire Line
+	6900 3200 7150 3200
+Wire Wire Line
+	6900 3400 7150 3400
+Wire Wire Line
+	7150 3500 6900 3500
+Wire Wire Line
+	6900 3600 7150 3600
+Wire Wire Line
+	7150 3700 6900 3700
+Wire Wire Line
+	6900 3800 7150 3800
+Wire Wire Line
+	7150 3900 6900 3900
+Wire Wire Line
+	6900 4000 7150 4000
+Wire Wire Line
+	7150 4200 6900 4200
+Wire Wire Line
+	6900 4300 7150 4300
+Wire Wire Line
+	7150 4400 6900 4400
+Wire Wire Line
+	6900 4500 7150 4500
+Wire Wire Line
+	7150 4600 6900 4600
+Wire Wire Line
+	6900 4700 7150 4700
+Wire Wire Line
+	7150 4800 6900 4800
+$Comp
+L U_Connector:DF40C_2.0_-70DS-0.4V_51_ J?
+U 1 1 60DFE105
+P 9250 3050
+AR Path="/60DFE105" Ref="J?"  Part="1" 
+AR Path="/60DE12B4/60DFE105" Ref="J10"  Part="1" 
+F 0 "J10" H 9250 5015 50  0000 C CNN
+F 1 "DF40C_2.0_-70DS-0.4V_51_" H 9250 4924 50  0000 C CNN
+F 2 "" H 9550 4850 50  0001 L CNN
+F 3 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF40C-2-0-70DS-0-4V-51/2530296" H 9550 4750 50  0001 L CNN
+	1    9250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1450 9700 1450
+Wire Wire Line
+	9700 1550 9950 1550
+Wire Wire Line
+	9950 1650 9700 1650
+Wire Wire Line
+	9700 1750 9950 1750
+Wire Wire Line
+	9950 1850 9700 1850
+NoConn ~ 2650 4900
+NoConn ~ 2650 5000
+NoConn ~ 2650 5100
+NoConn ~ 2650 5200
+NoConn ~ 2650 5300
+NoConn ~ 2650 5400
+NoConn ~ 2650 5500
+NoConn ~ 2650 5600
+NoConn ~ 2650 5700
+NoConn ~ 2650 5800
+NoConn ~ 2650 5900
+NoConn ~ 2650 6000
+NoConn ~ 2650 6100
+NoConn ~ 2650 6200
+NoConn ~ 2650 6300
+NoConn ~ 2650 6400
+NoConn ~ 2650 6500
+NoConn ~ 2650 6600
+NoConn ~ 2650 6700
+NoConn ~ 2650 6800
+NoConn ~ 3150 6800
+NoConn ~ 3150 6700
+NoConn ~ 3150 6600
+NoConn ~ 3150 6500
+NoConn ~ 3150 6400
+NoConn ~ 3150 6300
+NoConn ~ 3150 6200
+NoConn ~ 3150 6100
+NoConn ~ 3150 6000
+NoConn ~ 3150 5900
+NoConn ~ 3150 5800
+NoConn ~ 3150 5700
+NoConn ~ 3150 5600
+NoConn ~ 3150 5500
+NoConn ~ 3150 5400
+NoConn ~ 3150 5300
+NoConn ~ 3150 5200
+NoConn ~ 3150 5100
+NoConn ~ 3150 5000
+NoConn ~ 3150 4900
+Text GLabel 9950 2750 2    50   UnSpc ~ 0
+U_LED_1
+Text GLabel 9950 2850 2    50   UnSpc ~ 0
+U_LED_2
+Text GLabel 9950 2550 2    50   UnSpc ~ 0
+U_BUTTON_1
+Text GLabel 9950 2650 2    50   UnSpc ~ 0
+U_BUTTON_2
+Text GLabel 8550 2350 0    50   UnSpc ~ 0
+BOOT0
+Text GLabel 8550 2450 0    50   UnSpc ~ 0
+BOOT1
+Text GLabel 8550 2550 0    50   UnSpc ~ 0
+BOOT2
+Wire Wire Line
+	8550 2350 8800 2350
+Wire Wire Line
+	8550 2450 8800 2450
+Wire Wire Line
+	8550 2550 8800 2550
+Wire Wire Line
+	9950 2550 9700 2550
+Wire Wire Line
+	9950 2650 9700 2650
+Wire Wire Line
+	9700 2750 9950 2750
+Wire Wire Line
+	9950 2850 9700 2850
+$EndSCHEMATC
