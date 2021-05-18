@@ -923,12 +923,6 @@ Wire Wire Line
 Connection ~ 5750 4100
 Wire Wire Line
 	5750 4100 5950 4100
-Text GLabel 7400 3400 2    50   Input ~ 0
-ETH_CLK
-Text GLabel 7400 3300 2    50   Input ~ 0
-ETH1_CLK125
-Text GLabel 7400 3200 2    50   Input ~ 0
-ETH_NRST
 $Comp
 L U_Power:PMIC_LDO6_1V0 #PWR?
 U 1 1 60CB9509
@@ -1009,4 +1003,97 @@ $EndComp
 Wire Wire Line
 	5900 2750 5800 2750
 Connection ~ 5800 2750
+$Comp
+L Device:C_Small C?
+U 1 1 60A57D14
+P 8000 3050
+AR Path="/60A57D14" Ref="C?"  Part="1" 
+AR Path="/60C3F3AE/60A57D14" Ref="C86"  Part="1" 
+F 0 "C86" H 8092 3096 50  0000 L CNN
+F 1 "4.7uF" H 8092 3005 50  0000 L CNN
+F 2 "" H 8000 3050 50  0001 C CNN
+F 3 "~" H 8000 3050 50  0001 C CNN
+	1    8000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A5879E
+P 8200 4050
+AR Path="/60A5879E" Ref="C?"  Part="1" 
+AR Path="/60C3F3AE/60A5879E" Ref="C87"  Part="1" 
+F 0 "C87" H 8292 4096 50  0000 L CNN
+F 1 "4.7uF" H 8292 4005 50  0000 L CNN
+F 2 "" H 8200 4050 50  0001 C CNN
+F 3 "~" H 8200 4050 50  0001 C CNN
+	1    8200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60A58DB3
+P 8000 2150
+AR Path="/60A58DB3" Ref="C?"  Part="1" 
+AR Path="/60C3F3AE/60A58DB3" Ref="C85"  Part="1" 
+F 0 "C85" H 8092 2196 50  0000 L CNN
+F 1 "4.7uF" H 8092 2105 50  0000 L CNN
+F 2 "" H 8000 2150 50  0001 C CNN
+F 3 "~" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A858A0
+P 8000 2300
+AR Path="/60A858A0" Ref="#PWR?"  Part="1" 
+AR Path="/60C3F3AE/60A858A0" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 8000 2050 50  0001 C CNN
+F 1 "GND" H 8005 2127 50  0000 C CNN
+F 2 "" H 8000 2300 50  0001 C CNN
+F 3 "" H 8000 2300 50  0001 C CNN
+	1    8000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2300 8000 2250
+Wire Wire Line
+	8000 2050 8000 2000
+Connection ~ 8000 2000
+$Comp
+L power:GND #PWR?
+U 1 1 60A97630
+P 8000 3250
+AR Path="/60A97630" Ref="#PWR?"  Part="1" 
+AR Path="/60C3F3AE/60A97630" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 8000 3000 50  0001 C CNN
+F 1 "GND" H 8005 3077 50  0000 C CNN
+F 2 "" H 8000 3250 50  0001 C CNN
+F 3 "" H 8000 3250 50  0001 C CNN
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3250 8000 3150
+Wire Wire Line
+	8000 2950 8000 2900
+Connection ~ 8000 2900
+Wire Wire Line
+	8200 3950 8200 3900
+Connection ~ 8200 3900
+$Comp
+L power:GND #PWR?
+U 1 1 60AB0F90
+P 8200 4250
+AR Path="/60AB0F90" Ref="#PWR?"  Part="1" 
+AR Path="/60C3F3AE/60AB0F90" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 8200 4000 50  0001 C CNN
+F 1 "GND" H 8205 4077 50  0000 C CNN
+F 2 "" H 8200 4250 50  0001 C CNN
+F 3 "" H 8200 4250 50  0001 C CNN
+	1    8200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4250 8200 4150
 $EndSCHEMATC
